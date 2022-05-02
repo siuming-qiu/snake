@@ -1,0 +1,57 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 10px solid #000;
+    border-radius: 40px;
+    margin: 100px auto;
+    background-color: #b7d4a8;
+}
+.border {
+    margin-top: 20px;
+    width: 304px;
+    height: 304px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    position: relative;
+
+}
+.info {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.food {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.food>div {
+    height: 4px;
+    width: 4px;
+    background-color: #000;
+    transform: rotate(45deg);
+}
+.snake>div{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border: 1px solid #b7d4a8;
+}
